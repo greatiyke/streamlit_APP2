@@ -50,7 +50,7 @@ def generate_response(product_name, product_category, target_audience_age, targe
 
 with st.form('myform'):
     product_name = st.text_input(
-        "What is the name of the product? \n\n", key="product_name", value="ZomZoo"
+        "What is the name of the product? \n\n", key="product_name", value="EliteMotion"
     )
     product_category = st.radio(
         "Select your product category: \n\n",
