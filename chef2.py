@@ -7,7 +7,7 @@ st.title('A Chef App')
 openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
 def generate_response(cuisine, dietary_preference, allergy, ingredient_1, ingredient_2,ingredient_3, wine):
-    llm = OpenAI(temperature=0.1, openai_api_key=openai_api_key)
+    llm = OpenAI(temperature=0.7, openai_api_key=openai_api_key)
     # Prompt
     template = f"""I am a Chef.  I need to create {cuisine} \n
 recipes for customers who want {dietary_preference} meals. \n
