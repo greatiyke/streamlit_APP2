@@ -46,19 +46,19 @@ with st.form('myform'):
     )
 
     allergy = st.text_input(
-    "Enter your food allergy:  \n\n", key="allergy", value="peanuts"
+    "Enter your food allergy:  \n\n", key="allergy"
     )
 
     ingredient_1 = st.text_input(
-    "Enter your first ingredient:  \n\n", key="ingredient_1", value="ahi tuna"
+    "Enter your first ingredient:  \n\n", key="ingredient_1"
     )
 
     ingredient_2 = st.text_input(
-    "Enter your second ingredient:  \n\n", key="ingredient_2", value="chicken breast"
+    "Enter your second ingredient:  \n\n", key="ingredient_2"
     )
 
     ingredient_3 = st.text_input(
-    "Enter your third ingredient:  \n\n", key="ingredient_3", value="tofu"
+    "Enter your third ingredient:  \n\n", key="ingredient_3"
     )
     wine = st.radio (
     "What wine do you prefer?\n\n", ["Red", "White", "None"], key="wine", horizontal=True
