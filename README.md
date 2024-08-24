@@ -1,0 +1,1 @@
+A marketing campaign AI application and a food recipe AI application, built with Streamlit, Python and ChatGPT.. it generate a marketing campaign strategy based on your input, also the chef app generate any kind of food recipes based on your request.
